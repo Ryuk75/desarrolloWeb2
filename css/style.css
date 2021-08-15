@@ -73,6 +73,45 @@ a {
 .contenedor-wrap{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center!important;
 }
 
+#panel{
+    width: 550px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    border: none;
+    height: 365px;
+}
+    
+#panel h1{
+    font-size: 20px;
+    text-align: center;
+}
+    
+#panel p{
+    font-size: 12px;
+    text-align: left;
+}
+    
+#p1{
+    text-align: justify;    
+}
+
+#p2{
+    text-align: center;
+    color: white;    
+}
+
+#imagen{
+    margin: 15px;
+    padding: 0;
+    height: 380px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+
+ 
